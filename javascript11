@@ -1,0 +1,148 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+        <title>插入js代码</title>
+        <script type="text/javascript">
+      <script type="text/javascript">  document.write("开启JS之旅!");
+      </script>
+
+    </head>
+    <body>
+    </body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>引用JS文件</title>
+<script src="script.js"></script>
+</head>
+<body>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS代码的位置</title>
+<script type="text/javascript">
+document.write("I love");
+</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write("javascript");
+</script>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>认识语句</title>
+<script type="text/javascript">
+document.write("Hello");
+document.write("world");
+</script>
+</head>
+<body>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>隐藏的注释</title>
+ <script type="text/javascript">
+    document.write("神奇的JS,快把我们隐藏了!"); // 快快把我变成单行注释//
+   /* 知道吗
+    JS可以实现很多动态效果
+    快来学习吧!*/
+ </script>
+</head>
+<body>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>变量</title>
+<script type="text/javascript">
+ var mynum;
+ munum="8";
+ var mynum= 6;
+</script>
+</head>
+<body>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>判断语句</title>
+  <script type="text/javascript">
+	var score =80; //score变量存储成绩，初值为80
+	  if(score>=60)
+	{
+     document.write("很棒，成绩及格了。");
+	}
+  else
+	{
+	 document.write("加油，成绩不及格。");
+	}
+  </script>
+</head>
+<body>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>函数调用</title>
+   <script type="text/javascript">
+      function contxt() //定义函数
+      {
+         alert("哈哈，调用函数了!");
+      }
+   </script>
+</head>
+<body>
+   <form>
+      <input type="button"  value="点击我" onclick="contxt()" />  
+   </form>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>函数调用</title>
+   <script type="text/javascript">
+      function contxt() //定义函数
+      {
+         alert("哈哈，调用函数了!");
+      }
+   </script>
+</head>
+<body>
+   <form>
+      <input type="button"  value="点击我" onclick="contxt()"/>  
+   </form>
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————————————
+
+
